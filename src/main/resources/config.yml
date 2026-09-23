@@ -1,0 +1,17 @@
+# Balance new players start with
+starting-balance: 1000
+
+auction:
+  duration-hours: 48
+  max-listings: 10      # auction lots per player
+  min-price: 1
+  tax-percent: 0        # percent taken from the seller on each sale
+
+orders:
+  max-orders: 5         # active orders per player
+  max-amount: 2304      # max items in one order
+
+sell:
+  # Global multiplier applied on top of every item's base price in prices.yml.
+  # Tune this to adjust the whole economy without editing every item.
+  multiplier: 1.0
